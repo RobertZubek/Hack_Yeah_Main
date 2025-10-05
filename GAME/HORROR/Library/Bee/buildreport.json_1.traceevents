@@ -1,0 +1,578 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1759656344618702, "dur": 2767263, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1759656344618747, "dur": 38055, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1759656344656804, "dur": 2713650, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1759656347370458, "dur": 15505, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1759656347387051, "dur": 22, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1759656344714623, "dur":2392, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759656344717027, "dur":124, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1759656344717226, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1759656344717253, "dur":440, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1759656344717733, "dur":815, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759656344718548, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759656347207843, "dur":223, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759656347208066, "dur":27, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759656347208093, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759656347208101, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759656347208127, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759656347208134, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759656347208153, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759656347208158, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759656347208174, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759656347208179, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759656347208196, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759656347208201, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759656347208216, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759656347208220, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759656347208237, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759656347208242, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759656347208258, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759656347208295, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759656347208349, "dur":30491, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1759656344718125, "dur":480, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656344718609, "dur":9646, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656344728271, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1759656344728282, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656344730954, "dur":12642, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1759656344743604, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1759656344743705, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656344743819, "dur":5481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1759656344749304, "dur":25030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1759656344774341, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656344774355, "dur":3347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1759656344777769, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1759656344777833, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656344777856, "dur":4204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1759656344782139, "dur":3440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1759656344785586, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656344785603, "dur":3987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1759656344789646, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1759656344789804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656344789949, "dur":63006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1759656344853018, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344853308, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656344853319, "dur":4656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344858030, "dur":9639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344867689, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656344867700, "dur":3551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344871303, "dur":10745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344882052, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656344882060, "dur":7623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344889738, "dur":8156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344897904, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656344897918, "dur":5267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344903242, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344903467, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656344903476, "dur":3444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344906981, "dur":444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344907463, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656344907489, "dur":4337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344911887, "dur":8171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344920063, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656344920072, "dur":6833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344926954, "dur":2272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344929231, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656344929239, "dur":18671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344947976, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344948255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656344948263, "dur":14374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344962698, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344962907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656344962936, "dur":5416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344968408, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344968603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656344968612, "dur":6037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344974709, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344974920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656344974929, "dur":8108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656344983105, "dur":262706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656345245818, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656345245828, "dur":3277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656345249161, "dur":113767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656345362935, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656345362946, "dur":3315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656345366325, "dur":592433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656345958765, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656345958775, "dur":3998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656345962838, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Plugins/x86_64/onnxruntime_providers_shared.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656345963146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656345963160, "dur":18446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Plugins/x86_64/onnxruntime_providers_shared.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656345981670, "dur":1662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Plugins/x86_64/opencv_photo4130.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656345983339, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656345983360, "dur":4275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Plugins/x86_64/opencv_photo4130.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656345987694, "dur":1489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Plugins/x86_64/opencv_videoio4130.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656345989190, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656345989202, "dur":30834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Plugins/x86_64/opencv_videoio4130.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656346020097, "dur":1002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Plugins/x86_64/opencv_highgui4130.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656346021105, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656346021115, "dur":3934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Plugins/x86_64/opencv_highgui4130.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656346025110, "dur":28087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Plugins/x86_64/opencv_core4130.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656346053204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656346053215, "dur":28904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Plugins/x86_64/opencv_core4130.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656346082188, "dur":14105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Plugins/x86_64/opencv_gapi4130.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656346096302, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656346096319, "dur":56605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Plugins/x86_64/opencv_gapi4130.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759656346152984, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1759656346153285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656346153294, "dur":35897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1759656346189411, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1759656346189675, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656346189686, "dur":10571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1759656346200320, "dur":1644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1759656346201974, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656346201996, "dur":9940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1759656346212206, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1759656346212441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759656346212452, "dur":3382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1759656346215894, "dur":991920, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759656344718500, "dur":165, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759656344718665, "dur":9603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759656344728271, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1759656344728393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759656344777896, "dur":3537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1759656344781497, "dur":51779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759656344833282, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759656344833290, "dur":626624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759656345459976, "dur":4606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759656345464588, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759656345464641, "dur":5403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759656345470114, "dur":557099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759656346027220, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759656346027230, "dur":75934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759656346103238, "dur":485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Plugins/x86_64/handtracker.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759656346103729, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759656346103745, "dur":5657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Plugins/x86_64/handtracker.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759656346109483, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1759656346109575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759656346109585, "dur":17867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1759656346127513, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1759656346127580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759656346127590, "dur":4384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1759656346132033, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1759656346132258, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759656346132269, "dur":9557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1759656346141887, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1759656346141940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759656346141953, "dur":5966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1759656346147985, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1759656346148056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759656346148063, "dur":4735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1759656346152864, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1759656346152932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759656346152941, "dur":105593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1759656346258600, "dur":949221, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759656344718794, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759656344718795, "dur":9488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759656344728283, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1759656344728432, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759656344794595, "dur":3911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1759656344798591, "dur":8226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344806824, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759656344806833, "dur":3284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344810181, "dur":7022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344817207, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759656344817214, "dur":2876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344820146, "dur":8138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344828288, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759656344828296, "dur":3395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344831747, "dur":7565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344839319, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759656344839329, "dur":3727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344843106, "dur":51860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344894973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759656344894995, "dur":3849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344898913, "dur":7580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344906502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759656344906515, "dur":3256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344909826, "dur":8110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344917943, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759656344917954, "dur":5920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344923929, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344924200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759656344924209, "dur":4082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344928345, "dur":7504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344935853, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759656344935861, "dur":4777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344940693, "dur":8448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344949146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759656344949153, "dur":4908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344954120, "dur":1005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344955130, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759656344955139, "dur":7404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344962607, "dur":727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344963338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759656344963345, "dur":15363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344978771, "dur":2017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656344980791, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759656344980797, "dur":30991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656345011836, "dur":897928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656345909771, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759656345909784, "dur":46062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656345955908, "dur":120492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Plugins/x86_64/opencv_videoio_ffmpeg4130_64.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656346076408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759656346076421, "dur":282309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Plugins/x86_64/opencv_videoio_ffmpeg4130_64.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759656346358832, "dur":849008, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759656344718441, "dur":210, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759656344718651, "dur":9613, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759656344728270, "dur":23239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1759656344751547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759656344751558, "dur":2795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1759656344754423, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1759656344754487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759656344754497, "dur":3003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1759656344757709, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1759656344757901, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759656344758629, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1759656344761389, "dur":29105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1759656344790498, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759656344790508, "dur":4209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1759656344794781, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656344795122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759656344795217, "dur":12001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656344807273, "dur":9786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656344817069, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759656344817083, "dur":3232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656344820367, "dur":7573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656344827946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759656344827954, "dur":3762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656344831770, "dur":48154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656344879929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759656344879938, "dur":7525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656344887533, "dur":8850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656344896388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759656344896493, "dur":6390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656344902944, "dur":7879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656344910829, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759656344910841, "dur":8881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656344919779, "dur":9059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656344928843, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759656344928853, "dur":6317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656344935221, "dur":7874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656344943101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759656344943110, "dur":3295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656344946472, "dur":8938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656344955415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759656344955423, "dur":7400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656344962880, "dur":1179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656344964064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759656344964072, "dur":5757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656344969906, "dur":1484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656344971395, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759656344971404, "dur":13346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656344984838, "dur":224921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656345209766, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759656345209776, "dur":4216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656345214049, "dur":268748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656345482805, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759656345482828, "dur":3406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656345486296, "dur":191506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656345677813, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759656345677824, "dur":217248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656345895146, "dur":1307655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656347202809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759656347202822, "dur":4878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759656347207773, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1759656347207778, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344718289, "dur":330, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344718619, "dur":9687, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344728311, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1759656344728387, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344761217, "dur":2788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1759656344764070, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1759656344764125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344764134, "dur":2859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1759656344767067, "dur":31638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1759656344798712, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344798725, "dur":5101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1759656344804112, "dur":10557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344814674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344814682, "dur":3231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344817977, "dur":7602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344825586, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344825596, "dur":3091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344828731, "dur":7477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344836214, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344836223, "dur":5667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344841956, "dur":9878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344851839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344851846, "dur":3990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344855925, "dur":624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344856553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344856561, "dur":6226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344862852, "dur":526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344863385, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344863403, "dur":3223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344866689, "dur":9278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344875973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344875981, "dur":3255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344879289, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344879502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344879544, "dur":4077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344883699, "dur":7500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344891206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344891215, "dur":4155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344895447, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344895808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344895816, "dur":5102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344900991, "dur":7505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344908502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344908514, "dur":3438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344912004, "dur":8902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344920913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344920922, "dur":5325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344926400, "dur":11348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344937754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344937764, "dur":2952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344940782, "dur":432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344941219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344941228, "dur":4620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344945902, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344946202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344946210, "dur":3083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344949359, "dur":716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344950079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344950087, "dur":7738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344957886, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344958322, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344958344, "dur":4576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344962982, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344963177, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344963186, "dur":5402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344968659, "dur":843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344969507, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344969516, "dur":10449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344980035, "dur":675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344980715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656344980723, "dur":7349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656344988129, "dur":571738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656345559874, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656345559884, "dur":3353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656345563305, "dur":2025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656345565336, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656345565346, "dur":3984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656345569385, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656345569788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656345569796, "dur":3771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656345573636, "dur":459133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656346032777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656346032790, "dur":62115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656346094983, "dur":7082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Plugins/x86_64/opencv_objdetect4130.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656346102087, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656346102107, "dur":6651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Plugins/x86_64/opencv_objdetect4130.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759656346108985, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1759656346109062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759656346109071, "dur":146206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1759656346255351, "dur":952460, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344718739, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344718740, "dur":9519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344728271, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1759656344728378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344745295, "dur":4048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1759656344749406, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1759656344749492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344749598, "dur":3125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1759656344752782, "dur":23730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1759656344776549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344776560, "dur":4421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1759656344781042, "dur":11458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344792506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344792515, "dur":8209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344800778, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344800997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344801004, "dur":2762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344803819, "dur":7604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344811430, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344811439, "dur":3072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344814561, "dur":7815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344822417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344822428, "dur":3183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344825667, "dur":7690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344833362, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344833372, "dur":2775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344836198, "dur":11044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344847249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344847258, "dur":4048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344851366, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344851609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344851619, "dur":4052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344855722, "dur":2125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344857854, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344857866, "dur":4915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344862842, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344863115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344863123, "dur":3426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344866601, "dur":9277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344875885, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344875895, "dur":11554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344887512, "dur":1362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344888882, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344888892, "dur":4011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344892956, "dur":540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344893501, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344893510, "dur":5359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344898931, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344899391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344899399, "dur":5223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344905183, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344905517, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344905527, "dur":3688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344909285, "dur":9730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344919022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344919031, "dur":4001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344923095, "dur":9143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344932244, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344932253, "dur":6720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344939031, "dur":726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344939762, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344939788, "dur":5427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344945278, "dur":9206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344954489, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344954500, "dur":4906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344959466, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344959843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344959852, "dur":9963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344969878, "dur":843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344970727, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344970737, "dur":8119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344978913, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344979122, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656344979129, "dur":3920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656344983121, "dur":699035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656345682163, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656345682174, "dur":214812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656345897071, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656345897361, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656345897377, "dur":4353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656345901790, "dur":117149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656346018947, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656346018961, "dur":3853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656346022874, "dur":141930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Plugins/x86_64/opencv_imgproc4130.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656346164819, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759656346164891, "dur":153233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Plugins/x86_64/opencv_imgproc4130.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759656346318193, "dur":889626, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759656344718652, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759656344718653, "dur":9604, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759656344728270, "dur":107024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1759656344835302, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759656344835545, "dur":4439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1759656344840040, "dur":15688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656344855733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759656344855742, "dur":3257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656344859065, "dur":480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656344859554, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759656344859594, "dur":4217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656344863872, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656344864258, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759656344864268, "dur":3055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656344867387, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656344867629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759656344867638, "dur":3502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656344871209, "dur":10405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656344881620, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759656344881629, "dur":8550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656344890233, "dur":8185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656344898426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759656344898437, "dur":5503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656344903989, "dur":2562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656344906558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759656344906567, "dur":5190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656344911816, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656344912179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759656344912188, "dur":14724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656344926967, "dur":8490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656344935462, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759656344935472, "dur":3662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656344939198, "dur":39426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656344978630, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759656344978797, "dur":6394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656344985250, "dur":314798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656345300055, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759656345300066, "dur":18148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656345318274, "dur":351738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656345670020, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759656345670037, "dur":225011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656345895117, "dur":8417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656345903541, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759656345903552, "dur":7724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656345911357, "dur":7012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Plugins/x86_64/opencv_imgcodecs4130.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656345918377, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759656345918598, "dur":6398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Plugins/x86_64/opencv_imgcodecs4130.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656345925055, "dur":157326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Plugins/x86_64/onnxruntime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656346082387, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759656346082400, "dur":30202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Plugins/x86_64/onnxruntime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759656346112664, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1759656346112723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759656346112733, "dur":89682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1759656346202477, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1759656346202537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759656346202544, "dur":7864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1759656346210485, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1759656346210554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759656346210564, "dur":5167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1759656346215800, "dur":992013, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759656344719019, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759656344719020, "dur":9262, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759656344728283, "dur":34411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1759656344762701, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759656344762712, "dur":7467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1759656344770240, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1759656344770309, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759656344770319, "dur":5527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1759656344775916, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1759656344775974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759656344775982, "dur":3203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1759656344779251, "dur":1246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656344780502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759656344780655, "dur":7070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656344787785, "dur":252820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR.exe" }}
+,{ "pid":12345, "tid":8, "ts":1759656345040610, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759656345040619, "dur":3688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR.exe" }}
+,{ "pid":12345, "tid":8, "ts":1759656345044363, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656345044588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759656345044596, "dur":2980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656345047633, "dur":309474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656345357114, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759656345357125, "dur":3812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656345360995, "dur":304641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656345665644, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759656345665655, "dur":163173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656345828935, "dur":508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656345829448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759656345829461, "dur":128101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656345957622, "dur":1834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Plugins/x86_64/opencv_features2d4130.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656345959462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759656345959472, "dur":4851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Plugins/x86_64/opencv_features2d4130.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656345964389, "dur":5333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Plugins/x86_64/opencv_calib3d4130.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656345969728, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759656345969740, "dur":9627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Plugins/x86_64/opencv_calib3d4130.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656345979433, "dur":2289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Plugins/x86_64/opencv_stitching4130.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656345981727, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759656345981737, "dur":41529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Plugins/x86_64/opencv_stitching4130.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656346023332, "dur":36904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Plugins/x86_64/opencv_dnn4130.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656346060245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759656346060258, "dur":16857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Plugins/x86_64/opencv_dnn4130.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656346077252, "dur":2797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Plugins/x86_64/opencv_video4130.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656346080071, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759656346080086, "dur":9010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Plugins/x86_64/opencv_video4130.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656346089163, "dur":1656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Plugins/x86_64/opencv_ml4130.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656346090831, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759656346090867, "dur":5622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Plugins/x86_64/opencv_ml4130.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656346096566, "dur":1634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Plugins/x86_64/opencv_flann4130.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656346098220, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759656346098236, "dur":6422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Plugins/x86_64/opencv_flann4130.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759656346104938, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1759656346105080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759656346105091, "dur":7970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1759656346113140, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1759656346113246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759656346113253, "dur":21537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1759656346134911, "dur":96178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildWin/HORROR_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1759656346231100, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759656346231116, "dur":27443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildWin/HORROR_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1759656346258645, "dur":949196, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759656347262992, "dur":4984, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1759656347387190, "dur": 1605, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1759656347387030, "dur": 1808, "ph": "X", "name": "Write chrome-trace events", "args": {} },

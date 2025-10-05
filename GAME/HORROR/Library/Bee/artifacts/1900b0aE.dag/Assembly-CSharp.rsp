@@ -374,6 +374,7 @@
 "Assets/HandTracker.cs"
 "Assets/HandTrackerController.cs"
 "Assets/HealthPotion.cs"
+"Assets/IntroScroll.cs"
 "Assets/MovingEnemy.cs"
 "Assets/MovingItem.cs"
 "Assets/MovingObstacle.cs"
@@ -386,6 +387,7 @@
 "Assets/PlayerHealth.cs"
 "Assets/PotionSpawner.cs"
 "Assets/RunnerController.cs"
+"Assets/SceneChange.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 "Assets/UIManager.cs"
 -langversion:9.0
