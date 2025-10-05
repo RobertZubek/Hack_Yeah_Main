@@ -5,6 +5,9 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class RunnerController : MonoBehaviour
 {
+    public int damage = 10;
+    public int points = 5;
+
     public float sideSpeed = 5f;
     public float laneDistance = 2f;
     public float jumpForce = 5f;
@@ -12,11 +15,21 @@ public class RunnerController : MonoBehaviour
 
     public float attackRange = 2f; // jak blisko przeciwnika musisz byæ, ¿eby go uderzyæ
 
+    public float destroyRange = 2000f;
+
+    [Header("Game Over Settings")]
+    public GameObject gameOverPanel;
+
     private CharacterController controller;
     private Vector3 velocity;
     private int targetLane = -1;
 
     private Vector3 startPosition;
+
+    private float timer = 0f;
+    private float gameOverDelay = 1.5f;
+
+    public int healAmount = 10; // ile zdrowia dodaje
 
     void Start()
     {
@@ -26,7 +39,34 @@ public class RunnerController : MonoBehaviour
 
     void Update()
     {
-        
+        if (FindObjectOfType<UIManager>().isGameOver)
+        {
+            Collider[] Enemies = Physics.OverlapSphere(transform.position, destroyRange);
+            foreach (Collider enemy in Enemies)
+            {
+                if (enemy.CompareTag("Enemy"))
+                {
+
+                    Destroy(enemy.gameObject);
+                    Debug.Log("Atak udany!");
+
+                }
+            }
+            // zatrzymaj grê po chwili (mo¿esz dodaæ animacjê przed zatrzymaniem)
+            timer += Time.deltaTime;
+            if (timer >= gameOverDelay)
+            {
+                
+                if (gameOverPanel != null)
+                {
+                    gameOverPanel.SetActive(true);
+                }
+                Time.timeScale = 0f;
+
+            }
+            // zatrzymuje ruch w grze
+        }
+
         // Sterowanie pasami
         if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
             targetLane = -1;
@@ -63,8 +103,10 @@ public class RunnerController : MonoBehaviour
         {
             if (enemy.CompareTag("Enemy"))
             {
+                FindObjectOfType<UIManager>().AddScore(points);
                 Destroy(enemy.gameObject);
                 Debug.Log("Atak udany!"); // w przysz³oœci daj punkty
+
             }
         }
     }
@@ -83,10 +125,35 @@ public class RunnerController : MonoBehaviour
                     Destroy(enemy.gameObject);
                 }
             }
-            
+            FindObjectOfType<UIManager>().TakeDamage(damage);
             Debug.Log("Gracz uderzony! Tracisz ¿ycie");
             // Tutaj mo¿esz w przysz³oœci dodaæ zmniejszenie ¿ycia / jumpscare
         }
+
+
+        Collider[] hitPotion = Physics.OverlapSphere(transform.position, attackRange);
+
+        if (hit.collider.CompareTag("Potion"))
+        {
+            foreach (Collider Potion in hitPotion)
+            {
+                if (Potion.CompareTag("Potion"))
+                {
+                    Destroy(Potion.gameObject);
+                }
+            }
+
+            //PlayerHealth playerHealth = FindObjectOfType<PlayerHealth>();
+            //if (playerHealth != null)
+            //{
+                //playerHealth.Heal(healAmount);
+                FindObjectOfType<UIManager>().Heal(healAmount);
+            //}
+
+            // tutaj mo¿esz dodaæ efekt VFX lub dŸwiêk
+            // Tutaj mo¿esz w przysz³oœci dodaæ zmniejszenie ¿ycia / jumpscare
+        }
+
     }
 }
 

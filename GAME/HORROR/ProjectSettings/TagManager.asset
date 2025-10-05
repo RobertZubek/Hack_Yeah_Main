@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - Enemy
+  - Health
+  - Potion
   layers:
   - Default
   - TransparentFX

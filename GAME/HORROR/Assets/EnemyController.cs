@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class EnemyController : MonoBehaviour
 {
-    public float speed = 8f; // prêdkoœæ w stronê gracza
+    public float speed = 8f; // prêdkoœæ bazowa
     private Transform player;
 
     void Start()
@@ -25,6 +24,11 @@ public class EnemyController : MonoBehaviour
         }
     }
 
+    public void SetSpeed(float newSpeed)
+    {
+        speed = newSpeed;
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -34,4 +38,3 @@ public class EnemyController : MonoBehaviour
         }
     }
 }
-

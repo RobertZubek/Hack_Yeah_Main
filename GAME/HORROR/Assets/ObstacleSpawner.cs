@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class ObstacleSpawner : MonoBehaviour
 {
+    [Header("Obstacles")]
     public GameObject obstaclePrefab;   // prefab przeciwnika
     public float spawnZ = 70f;          // odleg³oœæ od gracza
     public float laneDistance = 2f;     // odleg³oœæ miêdzy pasami
-    public float spawnInterval = 2f;    // co ile sekund spawnowaæ przeszkody
+    public float spawnInterval = 1f;    // co ile sekund spawnowaæ przeszkody
+
+    [Header("Potions")]
+    public GameObject potionPrefab;     // prefab potionu
+    [Range(0f, 1f)]
+    public float potionSpawnChance = 0.4f; // 10% szans na spawn potionu zamiast wroga
 
     private float timer = 0f;
 
@@ -17,20 +23,27 @@ public class ObstacleSpawner : MonoBehaviour
 
         if (timer >= spawnInterval)
         {
-            SpawnObstacle();
+            SpawnObject();
             timer = 0f;
         }
     }
 
-    void SpawnObstacle()
+    void SpawnObject()
     {
-        // Losowo wybiera pas (-1 = lewy, 1 = prawy)
+        // losowy pas (-1 = lewy, 1 = prawy)
         int lane = Random.value < 0.5f ? -1 : 1;
-
-        // Pozycja spawnu wzglêdem œrodka
         Vector3 pos = new Vector3(lane * laneDistance, 1f, spawnZ);
 
-        // Tworzenie przeszkody
-        Instantiate(obstaclePrefab, pos, Quaternion.Euler(0, 180, 0)); // 180°, ¿eby patrzy³ w stronê gracza
+        // losuj: przeciwnik lub potion
+        if (Random.value < potionSpawnChance)
+        {
+            // spawn potionu
+            Instantiate(potionPrefab, pos, Quaternion.identity);
+        }
+        else
+        {
+            // spawn przeciwnika (obróconego w stronê gracza)
+            Instantiate(obstaclePrefab, pos, Quaternion.Euler(0, 180, 0));
+        }
     }
 }
