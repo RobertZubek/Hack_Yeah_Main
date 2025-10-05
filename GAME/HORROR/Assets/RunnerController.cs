@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 [RequireComponent(typeof(CharacterController))]
 public class RunnerController : MonoBehaviour
 {
@@ -80,9 +81,9 @@ public class RunnerController : MonoBehaviour
         }
 
         // Sterowanie pasami
-        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
+        if (FindObjectOfType<HandTrackerController>().movement == 2 || Input.GetKeyDown(KeyCode.A))
             targetLane = -1;
-        if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
+        if (FindObjectOfType<HandTrackerController>().movement == 1 || Input.GetKeyDown(KeyCode.D))
             targetLane = 1;
 
         float targetX = targetLane * laneDistance;
@@ -100,7 +101,7 @@ public class RunnerController : MonoBehaviour
         controller.Move((move + velocity) * Time.deltaTime);
         transform.position = new Vector3(transform.position.x, transform.position.y, startPosition.z);
         // Atak
-        if (Input.GetKeyDown(KeyCode.K))
+        if (Input.GetKeyDown(KeyCode.K) || (FindObjectOfType<HandTrackerController>().is_attack == true && FindObjectOfType<HandTrackerController>().movement != 5))
         {
             Attack();
         }

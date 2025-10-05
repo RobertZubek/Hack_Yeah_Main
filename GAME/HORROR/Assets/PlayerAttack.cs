@@ -10,7 +10,7 @@ public class PlayerAttack : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.K))
+        if (Input.GetKeyDown(KeyCode.K) || (FindObjectOfType<HandTrackerController>().is_attack == true && FindObjectOfType<HandTrackerController>().movement != 5))
         {
             Attack();
         }

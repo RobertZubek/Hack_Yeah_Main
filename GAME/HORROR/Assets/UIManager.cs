@@ -56,9 +56,8 @@ public class UIManager : MonoBehaviour
     public void Heal(int heal)
     {
         if (isGameOver) return;
-
         health += heal;
-        if (heal >=100) health = 100;
+        if (health >= 100) health = 100;
         UpdateUI();
 
 
