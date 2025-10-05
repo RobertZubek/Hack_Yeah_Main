@@ -8,6 +8,12 @@ public class RunnerController : MonoBehaviour
     public int damage = 10;
     public int points = 5;
 
+    public AudioClip enemydethsound; // przypisz PotionPickup.wav
+    private AudioSource audioSource;
+
+    public AudioClip drinkSound; // przypisz PotionPickup.wav
+    private AudioSource audioSourceDrink;
+
     public float sideSpeed = 5f;
     public float laneDistance = 2f;
     public float jumpForce = 5f;
@@ -35,6 +41,12 @@ public class RunnerController : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
         startPosition = transform.position;
+
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
+
+        audioSourceDrink = gameObject.AddComponent<AudioSource>();
+        audioSourceDrink.playOnAwake = false;
     }
 
     void Update()
@@ -103,6 +115,8 @@ public class RunnerController : MonoBehaviour
         {
             if (enemy.CompareTag("Enemy"))
             {
+
+                audioSource.PlayOneShot(enemydethsound);
                 FindObjectOfType<UIManager>().AddScore(points);
                 Destroy(enemy.gameObject);
                 Debug.Log("Atak udany!"); // w przysz³oœci daj punkty
@@ -140,6 +154,7 @@ public class RunnerController : MonoBehaviour
                 if (Potion.CompareTag("Potion"))
                 {
                     Destroy(Potion.gameObject);
+                    audioSource.PlayOneShot(drinkSound);
                 }
             }
 
